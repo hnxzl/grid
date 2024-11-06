@@ -12,7 +12,7 @@ class NamaList extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: NamaListSiapa(), // Change this line to NamaListSiapa()
+      home: NamaListSiapa(), 
     );
   }
 }
