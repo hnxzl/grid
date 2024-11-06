@@ -12,7 +12,7 @@ class SearchApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: NamaList(), // Change this line to NamaList()
+      home: NamaList(),
     );
   }
 }
@@ -46,7 +46,7 @@ class _SearchState extends State<NamaList> {
   @override
   void initState() {
     super.initState();
-    filteredList = originList; // Tampilkan semua data pada awalnya
+    filteredList = originList;
     searchController.addListener(() {
       filterList();
     });
